@@ -1,0 +1,3 @@
+/projects/*/*/main
+/projects/*/*/target/
+/projects/*/*/Cargo.lock
