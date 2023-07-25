@@ -1,6 +1,6 @@
 const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
 
-fn TypeOf<T>(_: &T) {
+fn type_of<T>(_: &T) {
     println!("{}", std::any::type_name::<T>())
 }
 
@@ -23,8 +23,8 @@ fn main() {
 
     let spaces = "    ";
     print!("Type of spaces variable: ");
-    TypeOf(&spaces);
+    type_of(&spaces);
     let spaces = spaces.len();
     print!("Type of spaces variable: ");
-    TypeOf(&spaces);
+    type_of(&spaces);
 }
